@@ -1,0 +1,3 @@
+#compile with profiling:
+mpicc -O3 hybrid.c -L/opt/mpiP-3.5/lib -lmpiP -lbfd -lunwind -o hybrid.x -lm -fopenmp
+
