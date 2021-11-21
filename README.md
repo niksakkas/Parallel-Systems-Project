@@ -32,10 +32,10 @@ The for loop algorithm that each process implements is:
   <li>Wait until every green entry the neighbours require has been sent.</li>
 </ol>
 
+This algorithm is the baseline for all my parallel models.
 
 
-
-Project steps:
+My project steps (further described in the Report.pdf file):
 
 <ol>
 <li>Introduction</li>
@@ -44,7 +44,7 @@ Project steps:
 <li>Optimization of the MPI model</li>
 <li>MPI results</li>
 <li>Hybrid parallelism design using: MPI + OpenMp</li>
-<li>parallelism using CUDA</li>
+<li>Parallelism using CUDA</li>
 <li>Conclusions</li>
 </ol>
 
