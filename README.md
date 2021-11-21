@@ -45,3 +45,10 @@ This algorithm is the baseline for all my parallel models.
 <li>Conclusions</li>
 </ol>
 
+### Technology structure
+
+<ul>
+  <li>All the code was writen in C language, except the CUDA implementation, which was written in a .cu file </li>
+  <li>To create parallel processes, I used the ARGO system, which is a small Cluster of ten (10) Computing Nodes, with a separate Administrator-Node, connected to a local network via Ethernet Switch. Connection to this system was given to me through the course administrators. In every model, there is also a script that contains the parameters that ARGO uses to run the algorithms.</li>
+  <li></li>
+</ul>
